@@ -1,0 +1,109 @@
+body {
+    color: #0a0a0a;
+    font-size: 5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.left {
+    float: left;
+    width: 25% ;
+}
+
+.general {
+    background-color: grey;
+    font-size: large;
+}
+
+.stock{
+    font-size: large;
+    text-align: left;
+}
+
+.recommend{
+    font-size: large;
+    text-align: left;
+}
+
+.info {
+    font-size: large;
+    text-align: center;
+}
+.centre {
+    float: left;
+    width: 50% ;
+}
+
+.tab{
+    background-color: orange;
+    width: 100%; 
+    height: 300px;
+}
+.dat{
+    background-color: cyan;
+    width: 100%; 
+    height: 300px;
+}
+
+.analyse {
+    font-size: large;
+    text-align: center;
+}
+.marks{
+    background-color: blue;
+    width: 100%; 
+    height: 300px;
+}
+
+.marks2 {
+    background-color: blue;
+    width: 100%; 
+    height: 300px;
+}
+.predict {
+    font-size: large;
+    background-color: honeydew;
+}
+
+.date {
+    font-size: large;
+}
+
+.right {
+    float: left;
+    width: 25%;
+}
+
+.model {
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+}
+.news {
+    font-size: large;
+    background-color:khaki;
+}
+.current {
+    font-size: large;
+}
+.historical {
+    font-size: large;
+}
+.new{
+    background-color: red;
+    width: 100%; 
+    height: 300px;
+}
+
+.his{
+    background-color: forestgreen;
+    width: 100%; 
+    height: 300px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

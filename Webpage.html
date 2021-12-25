@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="stock.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='stock.css')}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <title>
+            Stock Analyser 
+        </title>
+    </head>
+    <body>
+        Stock Analyser
+    <div class="row">
+        <div class="left">
+            <header class="general">General</header>
+            <form>
+                <h1 class= "stock"> Stock:
+                    <input type="text" placeholder="">
+                    <input type="submit" value="Search">   </h1>
+                <h1 class="recommend">Our Recomendation:</h1>
+                
+            </form>
+            <h1 class="info">General Information:</h1>
+            <canvas class="tab"></canvas>
+            <h1 class="date">Key Dates:</h1>
+            <canvas class="dat"></canvas>
+        </div>
+
+        <div class ="centre">
+            <header class="predict"> Predicitions & Recomendation</header>
+            <h1 class="analyse">Graph</h1>
+            <canvas class="marks"></canvas>
+            <header class="model"> Prediction Model</header>
+            <canvas class="marks2"></canvas>
+        </div>
+
+        <div class ="right">
+            <header class="news">News & Performance </header>
+            <h1 class="current">Latest News:</h1>
+            <canvas class="new"></canvas>
+            <h1 class="historical">Historical Performance</h1>
+            <canvas class="his"></canvas> 
+        </div>
+    </div>
+    </body>
+</html>
+
+
+
